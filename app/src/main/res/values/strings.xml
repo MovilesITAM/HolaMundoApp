@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">HolaMundoApp</string>
+    <string name="app_name">¡Hola Mundo! </string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+    <string name="title_activity_navigation_drawer_base">NavigationDrawerBase</string>
+    <string name="title_activity_home_gui">HomeGUI</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="Acerca_de">Acerca de</string>
+    <string name="Convocatoria">Convocatoria</string>
+    <string name="Anunciate">Anunciáte</string>
+    <string name="Secciones">Secciones</string>
+    <string name="Favoritos">Favoritos</string>
 </resources>
