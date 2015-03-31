@@ -9,6 +9,15 @@ public class Numero extends RealmObject {
     private int numeroID;
     private String nombreNumero;
     private String imagenURL;
+    private String editorial;
+
+    public String getEditorial() {
+        return editorial;
+    }
+
+    public void setEditorial(String editorial) {
+        this.editorial = editorial;
+    }
 
     public String getNombreNumero() {
         return nombreNumero;

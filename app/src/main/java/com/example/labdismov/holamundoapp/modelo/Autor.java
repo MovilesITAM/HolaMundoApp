@@ -1,5 +1,6 @@
 package com.example.labdismov.holamundoapp.modelo;
 
+import io.realm.RealmList;
 import io.realm.RealmObject;
 
 /**
@@ -10,8 +11,26 @@ public class Autor extends RealmObject {
     private String nombres;
     private String apellidoPaterno;
     private String apellidoMaterno;
+    private String email;
+    private Carrera segundaCarrera;
     private Carrera carrera;
     private String fotoURL;
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public Carrera getSegundaCarrera() {
+        return segundaCarrera;
+    }
+
+    public void setSegundaCarrera(Carrera segundaCarrera) {
+        this.segundaCarrera = segundaCarrera;
+    }
 
     public int getAutorID() {
         return autorID;
