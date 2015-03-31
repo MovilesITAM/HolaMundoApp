@@ -1,15 +1,12 @@
-package com.example.labdismov.holamundoapp;
+package com.example.labdismov.holamundoapp.vista;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import java.util.Timer;
 import java.util.TimerTask;
 import android.content.Intent;
-import android.app.Activity;
-import android.view.Window;
-import android.widget.ProgressBar;
-import android.view.Menu;
-import android.view.MenuItem;
+
+import com.example.labdismov.holamundoapp.R;
 
 
 public class PantallaInicial extends ActionBarActivity {

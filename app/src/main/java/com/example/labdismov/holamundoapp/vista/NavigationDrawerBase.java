@@ -1,4 +1,4 @@
-package com.example.labdismov.holamundoapp;
+package com.example.labdismov.holamundoapp.vista;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -22,6 +22,8 @@ import android.widget.FrameLayout;
 import android.widget.SearchView;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.labdismov.holamundoapp.R;
 
 
 public class NavigationDrawerBase extends ActionBarActivity {
